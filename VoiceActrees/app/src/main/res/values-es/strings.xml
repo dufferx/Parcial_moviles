@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actriz de voz</string>
+    <string name="name_label">Nombre</string>
+    <string name="age_label">Edad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_new_actress_label">Añadir una nueva actris</string>
+    <string name="add_label">AÑADIR</string>
+    <string name="voice_actresses_label">ACTRIZ DE DOBLAJE</string>
+</resources>

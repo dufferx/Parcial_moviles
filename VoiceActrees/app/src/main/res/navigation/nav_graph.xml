@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/actressListFragment">
+
+    <fragment
+        android:id="@+id/actressListFragment"
+        android:name="com.example.voiceactrees.ui.actress.list.ActressListFragment"
+        android:label="ActressListFragment" >
+        <action
+            android:id="@+id/action_actressListFragment_to_newActressFragment"
+            app:destination="@id/newActressFragment" />
+        <action
+            android:id="@+id/action_actressListFragment_to_actressFragment"
+            app:destination="@id/actressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newActressFragment"
+        android:name="com.example.voiceactrees.ui.actress.newactress.NewActressFragment"
+        android:label="NewActressFragment" />
+    <fragment
+        android:id="@+id/actressFragment"
+        android:name="com.example.voiceactrees.ui.actress.ActressFragment"
+        android:label="ActressFragment" />
+</navigation>

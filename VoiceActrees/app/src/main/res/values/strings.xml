@@ -2,4 +2,9 @@
     <string name="app_name">VoiceActrees</string>
     <string name="name_label">Name</string>
     <string name="age_label">Age</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_new_actress_label">ADD A NEW ACTRESS</string>
+    <string name="add_label">ADD</string>
+    <string name="voice_actresses_label">VOICE ACTRESSES</string>
 </resources>
